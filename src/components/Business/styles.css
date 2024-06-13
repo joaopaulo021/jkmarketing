@@ -1,0 +1,112 @@
+.business {
+    padding: 2rem;
+    background: linear-gradient(to top, #030303, #1f1c18);
+}
+
+.business h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffff;
+    margin-top: 2rem;
+}
+
+.texts div {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.text-item {
+    width: 100%;
+}
+
+.check-btn {
+    background-color: green;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.btn-business {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texts {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.texts-flex {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texts div p {
+    margin-left: 1rem;
+}
+
+.texts img {
+    border-radius: 1rem;
+    width: 20rem;
+    box-shadow: 0 0 10px 2px #ffff;
+}
+
+
+
+@media (width < 600px) {
+    .texts {
+        flex-direction: column;
+    }
+
+    .texts img {
+        width: 10rem;
+    }
+
+    .texts div {
+
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .business h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (width >=600px) and (width <=1024px) {
+    .texts {
+        flex-direction: column;
+    }
+
+    .texts img {
+        width: 10rem;
+    }
+
+    .texts div {
+
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .business h3 {
+        font-size: 2rem;
+    }
+}
