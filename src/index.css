@@ -19,17 +19,28 @@ h1 {
 
 footer {
   height: 10rem;
+  width: 100%;
+  align-items: center;
   display: flex;
   justify-content: space-between;
   background-color: #191818;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
 
 .whats-btn {
   width: 5rem;
   height: 5rem;
   color: #25d366;
   position: fixed;
-  bottom: 2rem;
+  bottom: 7rem;
   right: 2rem;
 }
 
@@ -38,6 +49,8 @@ footer {
 .social-media {
   align-items: center;
   width: 55%;
+  justify-content: center;
+
   display: flex;
 }
 
@@ -62,5 +75,14 @@ footer p {
 
     bottom: 2rem;
     right: 1rem;
+  }
+
+  footer {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  footer img {
+    height: 10rem;
   }
 }

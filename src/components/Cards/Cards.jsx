@@ -5,6 +5,7 @@ import { IoMdPersonAdd } from 'react-icons/io'
 import { PiShareNetworkThin } from 'react-icons/pi'
 import ScrollReveal from 'scrollreveal';
 import { useEffect, useRef } from 'react'
+import { SlRocket } from 'react-icons/sl'
 
 
 const Cards = () => {
@@ -13,6 +14,7 @@ const Cards = () => {
     const projectBxRef_1 = useRef(null);
     const projectBxRef_2 = useRef(null);
     const projectBxRef_3 = useRef(null);
+    const projectBxRef_4 = useRef(null);
 
     useEffect(() => {
         const sr = ScrollReveal({ reset: true });
@@ -39,11 +41,16 @@ const Cards = () => {
             origin: "top",
             duration: 1000,
         });
+        sr.reveal(projectBxRef_4.current, {
+            distance: "50px",
+            origin: "top",
+            duration: 1000,
+        });
     }, []);
 
     return (
         <>
-            <h2>Eleve o patamar de seu negócio!</h2>
+            <h2>MOLDANDO O FUTURO COM ESTRATÉGIAS !</h2>
             <section className="cards-container background">
                 <div ref={projectBxRef} className="card">
                     <MdAutoGraph className='icons' />
@@ -56,6 +63,12 @@ const Cards = () => {
                     <p>Maximizando o alcance e engajamento nas plataformas digitais.</p>
                 </div>
                 <div ref={projectBxRef_2} className="card">
+                    <SlRocket className='icons' />
+                    <h3>Trafego pago: Facebook & Instagram ADS </h3>
+                    <p>Estratégias personalizadas para alcançar objetivos e atrair clientes para o seu negócio.</p>
+                </div>
+
+                <div ref={projectBxRef_4} className="card">
                     <IoMdPersonAdd className='icons' />
                     <h3>Posicionamento e presença de marca </h3>
                     <p>Destaque-se no mercado e conquiste a preferência do seu público-alvo.</p>

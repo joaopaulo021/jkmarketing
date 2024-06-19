@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react';
 import ScrollReveal from 'scrollreveal';
 
 
-
 const AboutUs = () => {
 
     const projectBxRef = useRef(null);
@@ -39,13 +38,16 @@ const AboutUs = () => {
                 <img ref={projectBxRef_left} src={profilePic} alt="" />
                 <div className="text">
                     <h3 ref={projectBxRef}> SOMOS A JK MARKETING DIGITAL</h3>
-                    <p ref={projectBxRef_right} >A JK Marketing Digital, fundada em novembro de 2022, é uma agência de Branding Estratégico liderada por uma equipe de especialistas. Seus sócios proprietários, Killara Mattos, publicitária, mentora, Ex-jogadora da Seleção Brasileira de Voleibol e Jônatas Campos, profissional de tecnologia e informação e Ex-jogador profissional de Basquete, uniram seus conhecimentos para criar uma agência única.
+                    <p ref={projectBxRef_right} >Fundada na cidade de São Carlos, no estado de São Paulo, a JK é uma agência de Branding Estratégico, liderada por uma equipe de especialistas que une conhecimento e experiência.
                         <br />
                         <br />
-                        O diferencial da JK Marketing Digital reside no seu foco em Alta Performance de Pessoas e Marcas. Com mais de 20 cases de sucesso em seu portfólio, a agência tem demonstrado consistentemente sua capacidade de elevar marcas e indivíduos a novos patamares.
+                        Nossos sócios, Killara Mattos, publicitária, mentora e ex-jogadora da Seleção Brasileira de Voleibol, e Jônatas Campos, profissional de tecnologia da informação e ex-jogador profissional de Basquete, combinaram suas habilidades para criar uma agência única.
                         <br />
                         <br />
-                        Além disso, a JK Marketing Digital atende clientes não apenas no Brasil, mas também na Europa, consolidando sua presença internacional e capacidade de atender às necessidades de uma ampla gama de mercados.</p>
+                        Nosso diferencial está no foco em Alta Performance de Pessoas e Marcas. Com diversos cases de sucesso, temos comprovado nossa capacidade de elevar marcas e indivíduos a novos patamares. Atendemos clientes no Brasil e na Europa, consolidando nossa presença internacional e adaptando-nos às necessidades de diversos mercados.
+                        <br />
+                        <br />
+                        ELEVE O PATAMAR DE SEU NEGÓCIO!</p>
                 </div>
             </div>
         </section>

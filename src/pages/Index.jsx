@@ -23,13 +23,20 @@ const Index = () => {
                 <a href="https://contate.me/jk-marketing"><button type='button'>SOLICITAR ORÇAMENTO</button></a>
             </div>
             <footer>
-                <img src={logo} alt="" />
+                <div className="logo-container">
+                    <img src={logo} alt="" />
+                    <p>JK MARKETING DIGITAL, MOLDANDO O FUTURO COM ESTRATÉGIAS!</p>
+
+                </div>
                 <div className="social-media">
                     <a href="https://www.facebook.com/Jkmarketingdigitall?locale=pt_BR"><FaFacebook className='icons mg-right' /></a>
                     <a href="https://www.instagram.com/jk.mktdigitall/"><FaInstagram className='icons ' /></a>
                 </div>
 
-
+                <div className="infos">
+                    <p>Email: jkmarketingdigital22@gmail.com</p>
+                    <p>CNPJ: 50.294.681/0001-16 / São Carlos - SP</p>
+                </div>
             </footer>
             <a href="https://contate.me/jk-marketing"><FaWhatsapp className='whats-btn' /></a>
             {/* <p>JK Marketing Digital</p> */}
